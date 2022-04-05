@@ -22,21 +22,28 @@ body {
 
 .inputs-container-1 {
   display:flex;
-  margin-bottom: 30px;
 }
 
 .inputs-container-2 {
   display:flex;
-  margin-top: 15px;
+}
+
+.item {
+  margin-right: 1em;
 }
 
 .label-month {
-  background-color: #bdbebd;
-  padding: 1rem;
+  display: block;
+  background-color: white;
+  border: solid 1px #707070;
+  width: 50px;
+  height:50px;
+  /* padding: 1rem; */
   font-size: 1em;
   border-radius: 50%;
   color: #545454;
   text-align: center;
+  line-height: 300%;
 }
 
 input[type=checkbox]:checked + label { 
@@ -46,6 +53,7 @@ input[type=checkbox]:checked + label {
 
 .label-month:hover {
   background-color: #949494;
+  border: solid 1px #949494;
   color: white;
   cursor: pointer;
 }
@@ -54,8 +62,4 @@ input[type=checkbox]:checked + label {
   visibility: hidden;
 }
 
-/* .item {
-  width: 50px;
-  height: 50px;
-} */
 
